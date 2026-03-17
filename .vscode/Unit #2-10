@@ -1,0 +1,8 @@
+“Light up Neopixels” on Micro:Bit
+* Created by: Isaac Garrow */
+    ('Hello, World!')
+if (input.lightLevel() <= 51) 'neopixel.Create(0)'
+if (input.lightLevel() > 52) 'neopixel.Create(1)'
+if (input.lightLevel() > 104) 'neopixel.Create(2)'
+if (input.lightLevel() > 156) 'neopixel.Create(3)'
+if (input.lightLevel() > 208) 'neopixel.Create(4)'
